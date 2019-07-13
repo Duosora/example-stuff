@@ -1,0 +1,9 @@
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+yarn-error.log
+.phpunit.result.cache
+node_modules
+/vendor

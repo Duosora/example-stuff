@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+ pre_build:
+    commands:
+     - curl -s https://getcomposer.org/installer | php
+     - mv composer.phar /usr/local/bin/composer
+ build:
+   commands:
+     - composer install
+artifacts:
+ files:
+  - '**/*'
+ name: icy-test-$(date +%Y-%m-%d) 

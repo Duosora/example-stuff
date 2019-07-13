@@ -1,0 +1,44 @@
+@charset "utf-8"; 
+/************** MIN WIDTH (Starting Width and above) ********************/ 
+@media screen and (min-width: 992px) { 
+ 
+} 
+ 
+@media screen and (min-width: 787px) { 
+    .mobile-only { 
+        display:none !important; 
+    } 
+} 
+ 
+@media screen and (min-width: 480px) { 
+ 
+} 
+ 
+/************** MAX WIDTH (Starting Width and below) ********************/ 
+@media (max-width: 991px) { 
+ 
+} 
+ 
+@media screen and (max-width: 786px) { 
+    .desktop-only { 
+        display:none !important; 
+    } 
+    .custom-nav-search{ 
+        width: 100% !important; 
+        display: flex; 
+        margin: 10px; 
+    } 
+    .custom-nav-search li { 
+        margin: auto; 
+        width:100% !important; 
+    } 
+    .md-right{ 
+        float: right; 
+    } 
+} 
+ 
+@media screen and (max-width: 479px) { 
+    .small-screen-only { 
+        display:none !important; 
+    }     
+} 
